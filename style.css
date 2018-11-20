@@ -1,0 +1,872 @@
+/*overlay=41;58;31,couleurpricipal=224;79;79,font-color:149;149;149,colorfont=255;255;255*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('muli-webfont.woff2') format('woff2'),
+         url('muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('muli-bold-webfont.woff2') format('woff2'),
+         url('muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulibolditalic';
+    src: url('muli-bolditalic-webfont.woff2') format('woff2'),
+         url('muli-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliextralight';
+    src: url('muli-extralight-webfont.woff2') format('woff2'),
+         url('muli-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliextralightitalic';
+    src: url('muli-extralightitalic-webfont.woff2') format('woff2'),
+         url('muli-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliregularitalic';
+    src: url('muli-italic-webfont.woff2') format('woff2'),
+         url('muli-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('muli-light-webfont.woff2') format('woff2'),
+         url('muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulilightitalic';
+    src: url('muli-lightitalic-webfont.woff2') format('woff2'),
+         url('muli-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('muli-semibold-webfont.woff2') format('woff2'),
+         url('muli-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('font/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+         url('font/muli-semi-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('font/muli-webfont.woff2') format('woff2'),
+         url('font/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('font/muli-bold-webfont.woff2') format('woff2'),
+         url('font/muli-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fredoka_dingbatsregular';
+    src: url('font/fredoka_dingbats-webfont.woff2') format('woff2'),
+         url('font/fredoka_dingbats-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('font/fredokaone-regular-webfont.woff2') format('woff2'),
+         url('font/fredokaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header
+{ 
+    position: relative;
+    z-index: 2;
+    top: -28px;
+    width: 100%;
+    height: 550px;
+    background: url('image/3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center
+
+
+
+}
+#test1
+{
+    position: absolute;
+
+    z-index: 2;
+    top: 8px;
+    right: 15px;
+    color: rgb(255,255,255);
+    cursor: pointer;
+}
+
+nav 
+{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top:28px;
+  background:rgba(255,91,91);
+}
+
+nav ul li a:hover
+{
+  text-decoration: none;
+  background: none;
+}
+
+#test2
+{
+    position: relative;
+    top: 150px;
+    left: 0;
+ padding-top: 0px !important;
+
+}
+.test3
+{  position: relative;
+    z-index: 2;
+    left: -8px;
+     color: rgb(255,255,254);
+ font-family: 'Fredoka One', cursive;
+font-size: 2.4em;
+}
+.test4
+
+{  
+     position: relative;
+    z-index: 2;
+  margin-top: 55px;
+     color: rgb(202,192,194);
+ font-family: 'Fredoka One', cursive;
+ 
+ font-size: 1.1em;
+
+}
+.test5
+{  
+     position: relative;
+    z-index: 2;
+    margin-top: 35px;
+    height: 50px;
+    font-family: 'Fredoka One', cursive;
+    text-transform: none;
+    background: #ff5b5b;
+}
+.test5:hover
+{  
+    
+    background: #ff5b5c;
+}
+.brand-logo
+{
+    position: relative;
+    left: 10px;
+}
+
+.overlay
+{
+
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0px;
+    height: 550px;
+    opacity: .6;
+    background:rgba(17,18,18,1.0);
+    top: 0px;
+}
+
+
+@media (max-width: 415px){
+
+    
+nav 
+{
+    position: relative;
+    right: 25px;
+    padding-right: 5px;
+}
+
+
+
+ }
+
+
+
+/*la partition 1*/
+
+
+.partition1
+{  position: relative;
+    z-index: 1;
+    margin-top: 0px;
+  
+
+
+
+}
+.block
+{ 
+    position: relative;
+
+    top: 0px;
+    width: 100%;
+    
+    height: 100px;
+}
+.block .row
+{  
+    position: relative;
+    z-index: 1;
+      overflow:hidden;
+}
+.image1
+{
+    position: relative;
+     overflow-x:hidden;
+
+    top: -50px;
+    left:-150px;
+    height: 350px;
+    width: 300px;
+    -webkit-transform:rotate(140deg);
+    
+}
+
+
+.image2
+{   
+    position: relative;
+    z-index: 1;
+    top: 45px;
+    left: 5px;
+    height: 200px;
+    width:250px;
+    border:5px solid white;
+    box-shadow: 20px 10px rgb(237,237,247);
+
+
+}
+
+.image3
+{
+  
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    right: -200px;
+    height: 600px;
+    width: 300px;
+    -webkit-transform:rotate(120deg);
+    
+
+}
+
+.overlay1
+{
+  
+      position: relative;
+      z-index: 1;
+    width: 300px;
+    left: -150px;
+    height: 350px;
+    opacity: .6;
+    background:rgba(255,91,91,1.5);
+    top: -410px;
+       -webkit-transform:rotate(-130deg);
+}
+
+.overlay3
+{
+     -webkit-transform:rotate(120deg);
+      position: relative;
+      z-index: 1;
+    width: 300px;
+    right: -200px;
+    height: 600px;
+    opacity: .6;
+    background:rgba(255,91,91,1.5);
+    top: -728px;
+
+}
+.overlay3 .button2
+{
+
+    background:rgb(255,255,255);
+    color:rgb(255,91,91);
+  margin-top: 15px;
+    
+    border:0px solid transparent;
+    border-radius:35px;
+    font-size: 0.8em;
+    text-transform: none;
+    width: 210px;
+
+}
+
+.test6
+{
+    position: relative;
+    z-index: 2;
+    top:300px;
+    left: 10px;
+    font-family:'mulisemibold'; 
+     color:rgb(255,255,255);
+    font-size: 1.0em;
+    -webkit-transform:rotate(-120deg) !important;
+
+
+
+}
+.overlay3 .test6 h4
+{
+    position: relative;
+    z-index: 2;
+ font-size: 2.5em;
+ 
+ }
+
+ /*media query*/
+@media (max-width: 415px)
+{
+
+.partition1
+{  position: relative;
+    z-index: 1;
+    margin-top: 0px;
+
+
+
+
+}
+.block
+{ 
+    position: relative;
+
+    top: 0px;
+    width: 100%;
+    
+    height: 100px;
+}
+.block .row
+{  
+    position: relative;
+    z-index: 1;
+      overflow:hidden;
+}
+.image1
+{
+    position: relative;
+     overflow-x:hidden;
+
+    top: -50px;
+    left:-150px;
+    height: 350px;
+    width: 300px;
+    -webkit-transform:rotate(140deg);
+    
+}
+
+
+.image2
+{   
+    position: relative;
+    z-index: 2;
+    top: 45px;
+    left: 5px;
+    height: 100px;
+    width:100px;
+    border:5px solid white;
+    box-shadow: 0px 0px rgb(237,237,247);
+
+
+}
+
+.image3
+{
+  
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    right: -200px;
+    height: 600px;
+    width: 300px;
+    -webkit-transform:rotate(120deg);
+    
+
+}
+
+.overlay1
+{
+  
+      position: relative;
+      z-index: 1;
+    width: 300px;
+    left: -150px;
+    height: 350px;
+    opacity: .6;
+    background:rgba(255,91,91,1.5);
+    top: -410px;
+       -webkit-transform:rotate(-130deg);
+}
+
+.overlay3
+{
+     -webkit-transform:rotate(120deg);
+      position: relative;
+      z-index: 1;
+    width: 300px;
+    right: -200px;
+    height: 600px;
+    opacity: .6;
+    background:rgba(255,91,91,1.5);
+    top: -728px;
+
+}
+.overlay3 .button2
+{
+
+    background:rgb(255,255,255);
+    color:rgb(255,91,91);
+  margin-top: 15px;
+    
+    border:0px solid transparent;
+    border-radius:35px;
+    font-size: 0.8em;
+    text-transform: none;
+    width: 120px;
+
+}
+
+.test6
+{
+    position: relative;
+    z-index: 2;
+    top:400px;
+    left: 0px;
+    font-family:'mulisemibold'; 
+     color:rgb(255,255,255);
+    font-size: 0.5em;
+    -webkit-transform:rotate(-120deg) !important;
+
+
+
+}
+.overlay3 .test6 h4
+{
+    position: relative;
+    z-index: 2;
+ font-size: 1.0em;
+ 
+ }
+
+
+
+
+
+}
+ .partition2
+
+{ 
+    position: relative;
+    z-index: 2;
+  top: 150px;
+    margin-top: 60px;
+    height:750px;
+ background:rgb(246,246,246);
+ width: 100%;
+ padding-top: 25px;
+
+
+
+
+}
+.block2
+{
+   overflow: hidden; 
+   height: 660px;
+}
+
+.partition2 .row
+{
+    overflow: visible;
+    margin-left: -45px;
+    margin-right: -120px
+}
+.partition2 .row1
+{
+    margin-left: -250px;
+    margin-right: 35px
+}
+.partition2 .card-content
+{
+ margin-left: -10px;
+ margin-top: -10px;
+}
+.partition2 .card-content h6
+{ 
+ font-size: 1.0em;
+ color: rgb(72,68,68);
+}
+
+.partition2 .card-content p
+{ 
+ font-size: 1.0em;
+ color: rgb(233,100,106);
+}
+.partition2 .card-content .p1
+{ 
+ position: relative;
+ right: -200px;
+ color: rgb(72,68,68);
+}
+.test7
+{
+    color: #ff5b5b;
+    font-size: 1.0em;
+    font-family: 'mulisemibold';
+    margin-left: 25px;
+    margin-top: 1px;
+}
+
+.card
+{
+    height: 290px;
+    width: 280px;
+    border: 4px solid white;
+    box-shadow: 20px 10px rgb(237,237,247);
+}
+
+#button3
+
+{  
+  position:absolute;
+  top: 730px;
+  left: 600px;
+    background:rgb(255,255,255);
+    color:rgb(255,91,91);
+      border-radius:35px;
+    font-size: 1.0em;
+    text-transform: none;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+
+
+}
+
+/*media query*/
+@media (max-width: 415px)
+{
+ .partition2
+ {
+    height: 100%;
+
+ }
+.partition2 .card-content .p1
+{ 
+ position: relative;
+ right: -80px;
+ color: rgb(72,68,68);
+}
+
+.block2
+{
+    overflow: hidden;
+    height: 950px;
+}
+
+.partition2 .card-content
+{
+ margin-left: -10px;
+ margin-top: -10px;
+}
+    .partition2 .row
+{
+
+    margin-left: -5px;
+    margin-right: -20px
+}
+.partition2 .row1
+{
+    
+    margin-left: -5px;
+    margin-right: 5px
+}
+ .card
+{
+    height: 200px;
+    width: 150px;
+    border: 4px solid white;
+    box-shadow: 20px 10px rgb(237,237,247);
+}
+#button3
+
+{  
+   position: absolute;
+   top: 950px;
+   left:220px;
+    background:rgb(255,255,255);
+    color:rgb(255,91,91);
+      border-radius:35px;
+    font-size: 1.0em;
+    text-transform: none;
+    width: 180px;
+    font-family: 'Fredoka One', cursive;
+
+
+}
+
+ }
+ @media (max-width: 1024px)
+{
+    #button3
+
+{  
+   margin-top: 0px;
+   margin-left: -150px;
+    background:rgb(255,255,255);
+    color:rgb(255,91,91);
+      border-radius:35px;
+    font-size: 1.0em;
+    text-transform: none;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+
+
+}
+
+}
+
+
+
+.partition3 
+{
+    position: relative;
+    top: 250px;
+    background:rgb(255,255,255);
+    padding-top:0px;
+    text-align: center;
+    text-align: center;
+
+}
+.partition3 .row
+{
+    margin-left: 250px;
+    margin-top: -55px;
+}
+#icon1
+{ position: relative;
+    top: -25px;
+    font-size: 2.5em;
+    margin-top: 0px;
+    color:  rgb(233,100,106);
+}
+#icon2
+{ 
+    font-size: 7.5em;
+    color: rgb(246,246,246);
+    margin-top: 25px;
+}
+.p2
+{ position: relative;
+    top:-55px;
+    font-size: 1.0em;
+}
+.page-footer
+{
+     position: relative;
+    top: 250px;
+    background:rgb(255,91,91);
+    height: 250px;
+}
+
+/*media query  */
+
+@media (max-width: 415px){
+
+        .partition3 
+{
+    position: relative;
+    top: 250px;
+    left: -100px;
+    background:rgb(255,255,255);
+    padding-top:0px;
+    text-align: center;
+    text-align: center;
+
+}
+.partition3 .row
+{
+    margin-left:-100px;
+    margin-top: 10px;
+}
+#icon1
+{ position: relative;
+    top: 20px;
+    left: -10px;
+    font-size: 2.5em;
+    margin-top: 0px;
+    color:  rgb(233,100,106);
+}
+#icon2
+{ 
+
+    position: relative;
+    left: -120px;
+    font-size: 7.5em;
+    color: rgb(246,246,246);
+  top: -20px;
+  
+}
+.p2
+{ position: relative;
+    top:0px;
+    font-size: 0.8em;
+}
+.page-footer
+{
+     position: relative;
+    top: 100px;
+    background:rgb(255,91,91);
+    height: 50px;
+}
+
+}
+ @media (max-width: 1024px)
+{
+    .partition3 
+{
+    position: relative;
+    top: 250px;
+    background:rgb(255,255,255);
+    padding-top:0px;
+    text-align: center;
+    text-align: center;
+
+}
+.partition3 .row
+{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#icon1
+{ position: relative;
+    top: 20px;
+    font-size: 2.5em;
+    margin-top: 0px;
+    color:  rgb(233,100,106);
+}
+#icon2
+{ 
+    font-size: 7.5em;
+    color: rgb(246,246,246);
+    margin-top: -55px;
+    margin-left: 300px;
+}
+.p2
+{ position: relative;
+    top:0px;
+    font-size: 0.8em;
+}
+.page-footer
+{
+     position: relative;
+    top: 250px;
+    background:rgb(255,91,91);
+    height: 300px;
+}
+
+ }
