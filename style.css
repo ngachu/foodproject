@@ -13,7 +13,6 @@
 
 }
 
-body{background:black;}
 
 
 
@@ -652,8 +651,9 @@ nav
 @media (max-width: 415px)
 {
  .partition2
- {
+ { position: relative;
     height: 100%;
+    width: 100%;
 
  }
 .partition2 .card-content .p1
@@ -663,11 +663,7 @@ nav
  color: rgb(72,68,68);
 }
 
-.block2
-{
-    overflow: hidden;
-    height: 950px;
-}
+
 
 .partition2 .card-content
 {
@@ -677,18 +673,18 @@ nav
     .partition2 .row
 {
 
-    margin-left: -5px;
-    margin-right: -20px
+    margin-left: 0px;
+    margin-right: 0px
 }
 .partition2 .row1
 {
     
-    margin-left: -5px;
-    margin-right: 5px
+    margin-left: 0px;
+    margin-right: 0px
 }
  .card
 {
-    height: 200px;
+    height: 150px;
     width: 150px;
     border: 4px solid white;
     box-shadow: 20px 10px rgb(237,237,247);
@@ -697,14 +693,14 @@ nav
 
 {  
    position: absolute;
-   top: 950px;
+   top: 700px;
    left:220px;
     background:rgb(255,255,255);
     color:rgb(255,91,91);
       border-radius:35px;
     font-size: 1.0em;
     text-transform: none;
-    width: 180px;
+    width: 150px;
     font-family: 'Fredoka One', cursive;
 
 
